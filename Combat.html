@@ -1,0 +1,305 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="myStyleSheet.css">
+</head>
+<body> 
+<!--This the heading right here-->
+ <h1>DnD rules.</h1> 
+ <p>Quick overview of the rules.</p>
+
+<!--This is in the page navigation--> 
+<div id="nav">
+<ol>
+<h3>Links to page parts.</h3> 
+	<li><a href="#Adventure">Adventuring</a></li> 
+	<li><a href="#Travel">Travel, Overland map</a></li> 
+	<li><a href="#CombatOrder">Combat Order</a></li> 
+	<li><a href="#CombatActions">Combat Actions</a></li> 
+	<li><a href="#Dmg&Healing">Dmg & Healing</a></li> 
+	<li><a href="#Death">Death</a></li> 
+	<li><a href="#Conditions">Conditions</a></li>
+	<li><a href="#Movement">Movement</a></li> 
+	<li><a href="#MountedCombat">Mounted Combat</a></li> 
+	<li><a href="#Spells">Spell Casting</a></li>  
+	<li><a href="#GM">Gm info</a></li> 
+	<li><a href="#Adv1">Adventure 1.</a></li> 
+</ol>
+</div>
+
+<!--This is the content--> 
+<div id="content">
+<h3 id="Adventure">Adventuring</h3>
+<p><b>Short Rest</b> 1 hour, spend 1 or more Hit Dice, Hit Die being equal to char level.  Roll the die add Con modifier to it, regain that much hit points.</p>
+<p><b>Long Rest</b> 8 hours no more than 1 hour strenuous activity. Can pick new spells, regain hp. Regain any hit dice.</p>
+<p><b>Falling</b> 1d6 Bludg damage every 10 feet, to max 20d6. Land prone unless you avoid damage.</p>
+<p><b>Armor AC</b> your armor and shield determine your AC, you class gives you starting equipement, and some gold to spend.</p>
+<p><b>Ability check</b> DC = difficulty class, determine which ability applies. 5 very easy, 10 easy, 15 med, hard 20, very hard 25. To make ability check roll d20 add ability modifier. As with other d20 rolls add bonus and penalties.</p>
+<p><b>Ability modifier</b> subtract 10 from score divide by 2 round down, should be modifier.</p>
+<p><b>Group Checks</b> many situations one person will roll for whole group. Such as finding loot, int (perception), or social situations chr(intimidation), or surprise when sleeping. They can pick or the DM can and everyone lives with the result.</p>
+<p><b>Advantage & Disadvantage</b> Adv roll 2 d20 keep higher, Dis roll 2 keep lower. If you have both, no have neither.</p>
+<p><b>Contests</b> use abilities against one another higher roll with modifiers, bonuses and penalties wins. Ties are draws.</p>
+<p><b>Proficiencies</b> any roll, attack roll, saving throw, spell casting or spell saving difficulty, ability roll uses a proficiency modifier if character is proficient with said item, all listed in the character class section.</p>
+<p><b>Vision</b> lightly obscured just causes disadvantage on wis (perception) checks. Heavily obscured such as darkness gives the blindness condition. Torch and above light is reg. Less than torch, night candle light is lightly obscured. Darkness is heavily obscured. Many items list light range pg. 150 Players Handbook.</p>
+<p><b>Lifestyle</b> Wretched, No cost. Squalid, 1sp. Poor, 2sp. Modest 1gp. Comf 2gp. Wealthy 4gp. Aris 10+gp.</p>
+<a href="#nav">Back to Nav!</a>
+
+<h3 id="Travel">Travel, Overland map</h3>
+<p><b>Map is divided into squares.</b> every few squares equals one day distance of travel they need a days ration and rest for.</p>
+<p><b>Sight</b> characters often know the lay of the land. Yet in unfamiliar territory reveal 1 tile in each direction from the party.</p>
+<p><b>Break Neck Pace.</b> characters can double the amount of movement per day if they move at a break neck pace. Every con modifier days at break neck pace characters gain a level of exhaustion.</p>
+<p>
+<b>Square types: mov amt per day.</b>
+<ul>
+<li>Open grassland or farmland: 2.</li>
+<li>Road: 3.</li>
+<li>Restricted: 1. (Mountains, Dense forests, Swamp, i.e.)</li>
+<li>Search area: 1. (Trying to find something in one square.)</li>
+<li>Town: 3. Same as road.</li>
+</ul>
+</p>
+<p><b>Foraging</b> finding water or food. Depending on the square types they are moving in or ending upon they can use forage instead of rations and reserves of water. Chart below gives DC wis (survival) in square type of getting forage.</p>
+<p><b>Table below</b> Square types: DC wis (survival) check finding food human/mount : DC wis check finding water. Only one person makes the check, if they fail they lose that day foraging following that person through the square.</p>
+<ul>
+<li>Open grassland or farmland : Food, DC 14/5, h/m : Water, DC 10.</li>
+<li>Farmland : (for 6sp a farmer lead/provides them forage)</li>
+<li>Road : copies surrounding terrain, unless they meet travelers.</li>
+<li>Forest light : Food, DC 12/5, h/m : Water, DC 5.</li>
+<li>Forest heavy : Food, DC 10/5, h/m : Water, DC 5.</li>
+<li>Town : (If end day on town, can spend lifestyle cost for food/drink that day)</li>
+</ul>
+</p>
+<p><b>Exhaustion and Starvation.</b> Char needs 1 pound of food per day per str modifier. 1 gallon of water on a reg day, 2 gallons on hot day, every day without water is 2 levels of exhaustion. Half water is one level. Long rest with food and drink removes 1 level. Levels stack as exhaustion increases. Go without food 3 +con modifier days. Eating one reg day resets Exhaustion lvl. Char with neg str modifiers divide by mod, ie -2 divide by 2.</p>
+<ol>
+<li>Disadvantage on ability checks.</li>
+<li>Speed halved.</li>
+<li>Disadvantage on attack and saving throws.</li>
+<li>Speed to 0.</li>
+<li>Death.</li>
+</ol>
+<a href="#nav">Back to Nav!</a>
+
+<h3 id="CombatOrder">Order of combat.</h3> 
+<ol>
+<li><p><b>Determine surprise</b>, If a character is being sneaky make Dex (Stealth) sneaking vs Wis (Perception) opposing. If a character fails this surprise test, they can't move or act on their first turn, and they can't react until that turn ends. Dumb-struck for a turn.</p></li>
+<li><p><b>Establish Positions</b>. DM uses reason puts people where I wants them.</p></li>
+<li><p><b>Roll Initiative</b>: Dex check each player and creature type.
+Ties determined by DM. Each round goes in order high to low. Each round initiative remains the same.</p></li> 
+<li><p><b>Takes turns</b>. They
+can move up their speed in distance(feet), and take one action. If you have
+any bonus actions you take them on your turn, yet can only take one bonus
+action. If you can't take action you can't take bonus action.</p></li>
+<li><p><b>Reactions</b> are triggered actions taken upon a specific
+action of another character or monster. If you take a reaction you
+cannot take another until the start of your next turn. If the reaction
+interrupts someone's action, they can resume after the reaction.</p></li>
+<li><p><b>Simple stuff</b>, you can do simple stuff too.</p></li> 
+<li><p><b>Repeat</b>, from take turns till retreat or death.</p></li>
+</ol> 
+<a href="#nav">Back to Nav!</a>
+
+<h3 id="CombatActions">Actions in Combat</h3>
+<p><b>Attack.</b> One melee or ranged attack</p>
+<p><b>Cast a spell</b> each spell has a casting time, most 1 action.</p>
+<p><b>Dash</b> is an action that doubles your current speed. Modifiers apply.</p>
+<p><b>Disengage</b> is an action to remove attacks of opportunity.</p>
+<p><b>Dodge</b> Until the start of your next turn any attack rolls are disadvantaged vs you if you can see them, and you make Dex rolls with advantage. No dodge if incapacitated or a speed of 0.</p>
+<p><b>Help</b> give advantage on next ability check if made before your next turn. Give ally an attack advantage, only one before your next turn.</p>
+<p><b>Hide</b> Dex check in attempt to hide, benefits for unseen.</p>
+<p><b>Ready</b> cause a reaction for a trigger. React to specific occurence later in the round, must be after your turn. Action/spell must only take 1 turn. If spell you are concentrating. When casting you cast first on your turn release at time of trigger.</p>
+<p><b>Search</b>, Wis(perception) or Int(investigation) check.</p>
+<p><b>Use an Object</b>, if using the object requires an action.</p>
+<p><b>Improvising</b>, look at ability scores for guidance.</p>
+<h3>Making an attack.</h3>
+<p><b>Choose a target. Determine modifiers. Resolve attack.</b></p>
+<p><b>Attack roll.</b> Roll d20 add appropriate modifiers. If total exceeds targets AC, the attack hits.</p>
+<p><b>Modifiers to the roll</b> Ability: Str for melee, Dex for ranged, finesse or thrown break rule. Some spells. Proficiency bonus, add when using weapon proficiency.</p>
+<p><b>A 1 or 20</b> 20 hit no matter modifiers, and is a critical. 1 is miss no matter modifier.</p>
+<p><b>Unseen</b> disadvantaged on attack roll against you if targeting right spot. If targeting wrong spot char just misses. If on character can't see you, you have advantage on attack rolls against it. Once you attack or miss you become seen.</p>
+<p><b>Ranged Attack</b> some items have one range, can't attack beyond it. Others have two which means if in the second range you are disadvantaged. Close range is disadvantaged at 5ft on a hostile creature who sees you and is not incapacitated.</p>
+<p><b>Melee attacks</b> attacks not ranged most within 5ft, some bigger are noted in monster description.</p>
+<p><b>Opportunity attacks</b> when moving out of melee range the one moving creates attack of opportunity for foe. Opportune attack is using their one reaction to make a melee attack against moving target, stopping their movement in the process. Disengage action causes no opportunity attack as do teleporting.</p>
+<p><b>TwoWeaponFighting</b>If holding two light weapons you can take bonus action to attack with offhand weapon. No ability modifier unless negative. Same applies to thrown weapons.</p>
+<p><b>Grappling</b> 1 attack, grapple, against only 1 size larget target. Using Str(athletics) vs same or Dex(acrobatics) foe picks which they want to use. Success causes grapple condition. To escape must use action with test above. You can drag at half speed unless foe is 2 sizes smaller.</p>
+<p><b>Shove</b> 1 attack, push foe 5ft or knock prone, on success of Str(athletics) vs same or Dex(acrobatics) foe picks which they use.</p>
+<p><b>Cover</b> multiple sources of cover provide whichever is the most: half +2ac, 3/4 +5ac, total not targetable.</p>
+<a href="#nav">Back to Nav!</a>
+
+<h3 id="Dmg&Healing">Dmg & Healing</h3>
+<p><b>Hit points</b> Any number to 0.</p>
+<p><b>Damage rolls</b> Damage die + ability modifier, Str +dmg melee and thrown javelins, Dex +dmg ranged and items that use the finesse property such as rapier and dagger. Spells tell you what to roll. Spell does damage to multiple roll damage for all targets.</p>
+<p><b>Critical Hits</b> Roll damage dice twice add together, add ability modifier.</p>
+<p><b>Damage Types</b> diff types all apply damage but use diff resistances, acid, bludgeoning, cold, fire, lightning and so on.</p>
+<p><b>Resistance and Vulnerability</b> resistance gives half damage against type, vulnerable doubles it. These effects are applied last after all other modifiers.</p>
+<p><b>Instant death</b> if damage drops you to zero and the amount less exceeds your maximum life you die.</p>
+<p><b>Unconscious</b> if you don't instantly die you fall unconscious. Ends whenever you gain hit points.</p>
+<p><b>Death saving throw</b> your turn on 0, d20, 10 or higher succeeds. 3 success, not consecutive you stabilize, 3 failure not consecutive you die. a 1 is 2 failures, a 20 gives you back 1 hp. If you take damage you get another failure, critical attacks are two failures.</p>
+<p><b>Stabilize</b> DC 10 Wis(Medicine). Stable no more death checks, heal 1 hp after 1d4 hours. Still unconscious.</p>
+<p><b>Temp hit points</b> act as shield, not as +max hp. If two sources don't add pick higher. At 0 they do not restore consciousness they shield.</p>
+<a href="#nav">Back to Nav!</a>
+
+<h3 id="Death">Death</h3>
+<p><b>Death</b> is not permanent. If an ally can get the corpse of the char out of combat and to a temple they can be resurrected.</p>
+<p><b>Cost</b> the Gods ask for half of the characters money.</p>
+<p><b>Disability</b> upon death the character rolls a d20 upon the below list, and gains that disability upon resurrection. Record which stat so that if ever restored they can lose the disability.
+<ul>
+<li>(1) -1 str, scar losing muscle in the an arm.</li>
+<li>(2) -5 speed, scar losing muscle in leg.</li>
+<li>(3) -1 dex, lost part of a hand.</li>
+<li>(4) -5 speed, lost part of foot.</li>
+<li>(5-6) -1 con, partial liver failure. If they lose a point of con modifier they lose a hp for each lvl they obtained.</li>
+<li>(7-8) -1 int, hit too hard on the head.</li>
+<li>(9-10) -1 wis, partial amnesia.</li>
+<li>(11-12) -1 chr, hit with ugly stick.</li>
+<li>(13-14) perm fright in presence of thing which killed it.</li>
+<li>(15-20) Gets off with no effect.</li>
+</ul></p>
+<a href="#nav">Back to Nav!</a>
+
+<h3 id="Conditions">Conditions</h3>
+<ul>
+<li><p><b>Blinded</b> creature can't see, fails ability checks that require sight, attacks against creature have advantage, attacks from blinded are disadvantaged.</p></li>
+<li><p><b>Charmed</b> can't harm charmer, charmer has advantage on social interactions with charmed.</p></li>
+<li><p><b>Deafened</b> fails ability checks for hearing.</p></li>
+<li><p><b>Frightened</b> disadvantage on ability and attack rolls while source of fear in sight. Can't move closer to source of fear.</p></li>
+<li><p><b>Grappled/Restrained</b> speed 0. Attack rolls against are advantaged, attack rolls from are disadvantaged. Disadvantage on Dex saving rolls.</p></li>
+<li><p><b>Incapacitated</b> can't take actions or reactions. Loses dex saving throws.</p></li>
+<li><p><b>Invisible</b> see unseen in combat actions above.</p></li>
+<li><p><b>Paralyzed</b> incapacitated, can't move or speak. Fails Str and Dex saving throws. Attack rolls against have advantage. Attack rolls that hit are critical if within 5 feet.</p></li>
+<li><p><b>Petrified</b> creature and non-magical creatures stuff turn to stone, cease aging and increase in weight by order of 10. All effects of paralyzed, and gain resistance to all damage. Immune to poison and disease.</p></li>
+<li><p><b>Poisoned</b> disadvantage on attack and ability checks.</p></li>
+<li><p><b>Prone</b> reduced to crawl unless they stand. Have disadvantage on attack rolls. If attacker is within 5 feet gains advantage on prone char, otherwise has disadvantage.</p></li>
+<li><p><b>Stunned</b> same as paralyzed except no critical within 5 feet.</p></li>
+<li><p><b>Unconscious</b> same as paralyzed but in addition drops prone and drops what was being held.</p></li>
+<li><p><b>Turned</b> Wis saving throw, turned for 1 min or until takes damage. Tries to get away from character, can't move willingly within 30 feet. No reactions, can only dash away. No where to move can use dodge action.</p></li>
+</ul>
+<a href="#nav">Back to Nav!</a>
+
+<h3 id="Movement">Movement.</h3>
+<p><b>Movement</b> can be broken up many ways. Deduct total move in feet from whichever move type they are using. Swimming, crawling cost 1 extra speed per foot. If the total equals their speed in a particular move type they must switch to different type or stop. They can switch to different types as long at the new type still has speed after the total move so far is deducted.</p>
+<p><b>Difficult terrain</b>, every foot costs 1 extra. Multiple things in the a space counts as difficult terrain. Another creature counts as difficult terrain. You can move through a non-hostile creatures space. If hostile you can only move through their space if they are 2 sizes smaller or bigger. If creature not 2 sizes smaller or bigger create an attack of opportunity. Can't end move in their space.</p>
+<p><b>Prone</b>, standing up from being knocked prone takes half your speed.</p>
+<p><b>Long Jump</b> move feet distance equal to Str if covered 10 feet before, if not half Str. Low obstacle, Str(athletics) 10DC to clear, else you hit it. If landing in difficult terrain, DC 10 Dex(acrobatics), succeed land on feet else prone.</p>
+<p><b>High Jump</b> If moved 10 feet before 3 + Str modifier. Standing only half that. Your arms can reach 1&1/2 your height above the jump.</p>
+<p><b>Space Control</b> in feet, not size but control: tiny 2 & 1/2, small 5, med 5, large 10, huge 10, Garg 20. Any creature can fit through a space once size smaller than it, though disadvantaged on attack and dex saving throws. Attacks on squeezed people are advantaged.</p>
+<p><b>On a Grid</b> Divide grid into 5ft. Must have at least 1 speed left to enter square.
+If difficult you have to have 2 ft for next square.</p>
+<a href="#nav">Back to Nav!</a>
+
+<h3 id="MountedCombat">Mounted Combat and Underwater Combat</h3>
+<p><b>Mount</b> any one size larger creature with proper anatomy. Once during your move any within 5 feet, costs half your move. Something moves mount against your will, DC10 Dex saving throw or fall off mount. Knocked prone same check. Mount knocked prone, use reaction to dismount land on feet. Don't fall prone within 5ft.</p>
+<p><b>Control mount</b> non intelligent mounts can take a dash, disengage, and dodge action, with initiative same as rider. Intelligent can do what it wants with its own initiative, attack of opportunity on either mount or rider.</p>
+<p><b>Underwater</b> if the creature has no natural swimming speed makes attack at disadvantage unless from dagger, javelin, shortsword, spear, or trident. Ranged attack disadvantaged at normal, no attack at long unless crossbow, net or thrown weapon like javelin.</p>
+<a href="#nav">Back to Nav!</a>
+
+<h3 id="Spells">Spells</h3>
+<p><b>Spell Casting Ability</b> Spell save DC is usually 8 + proficiency bonus + Wis,Int or Chr bonus. Different casters use a different ability modifier. Spell attack modifier is the ability and proficiency bonus.</p>
+<p><b>Spell slots</b> characters have slots for spells which some slots are gained per level. Can fill higher slots with lower level spells, cast as if higher level spell. Need long rest to refill slots.</p>
+<p><b>Cantrips</b> no spell slot needed, cast at lvl 0.</p>
+<p><b>Rituals</b> either choose to perform spell as normal or as ritual. Rituals take 10 min or longer, no need of spell slot. Can't cast at higher level. Needs feature or on spell list.</p>
+<p><b>Casting time</b> most are 1 action. A few with your one bonus action, if bonus action no other spell except cantrip with your 1 action. Longer spells each turn you use your action casting with concentration.</p>
+<p><b>Concentration</b> moving and attacking, does not break concentration. Taking damage, Con-DC 10 or hald the damgage, which ever is higher check, fail means no concentration. Killed or incapacitated means no concentration.</p>
+<p><b>Range</b> most spells list range.</p>
+<p><b>Components</b> verbal v, somatic s(gesture), material m, no components no spell.</p>
+<p><b>Targets</b> can't target what you can't see, if you try to target area pick the furthest point you can see.</p>
+<a href="#nav">Back to Nav!</a>
+
+<h3 id="GM">GM Info</h3>
+<p><b>Combat encounter difficulty guide.</b> 1. Get xp thresholds for easy, med, hard, and deadly by adding xp guide values per character together. Each encounter can be compared to these thresholds to determine approx difficulty. Multiple monsters add a multiplier: 1 x 1, 2 x 1.5, 3-6 x 2, 7-10 x 2.5, 11-14 x 3, 15 x 4</p> 
+<p><table >
+  <thead>
+  <tr><th>Char Lvl</th><th>Easy</th><th>Med</th><th>Hard</th><th>Deadly</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>1</td><td>25</td><td>50</td><td>75</td><td>100</td></tr>
+  <tr><td>2</td><td>50</td><td>100</td><td>150</td><td>200</td></tr>
+  <tr><td>3</td><td>75</td><td>150</td><td>225</td><td>400</td></tr>
+  <tr><td>4</td><td>125</td><td>250</td><td>375</td><td>500</td></tr>
+  <tr><td>5, Not correct!</td><td>25</td><td>50</td><td>75</td><td>100</td></tr>
+  <tr><td>6</td><td>25</td><td>50</td><td>75</td><td>100</td></tr>
+  <tr><td>7</td><td>25</td><td>50</td><td>75</td><td>100</td></tr>
+  <tr><td>8</td><td>25</td><td>50</td><td>75</td><td>100</td></tr>
+  <tr><td>9</td><td>25</td><td>50</td><td>75</td><td>100</td></tr>
+  <tr><td>10</td><td>25</td><td>50</td><td>75</td><td>100</td></tr>
+  <tr><td>11</td><td>25</td><td>50</td><td>75</td><td>100</td></tr>
+  <tr><td>12</td><td>25</td><td>50</td><td>75</td><td>100</td></tr>
+  <tr><td>13</td><td>25</td><td>50</td><td>75</td><td>100</td></tr>
+  <tr><td>15</td><td>25</td><td>50</td><td>75</td><td>100</td></tr>
+  <tr><td>16</td><td>25</td><td>50</td><td>75</td><td>100</td></tr>
+  <tr><td>17</td><td>25</td><td>50</td><td>75</td><td>100</td></tr>
+  <tr><td>18</td><td>25</td><td>50</td><td>75</td><td>100</td></tr>
+  <tr><td>19</td><td>25</td><td>50</td><td>75</td><td>100</td></tr>
+  <tr><td>20</td><td>25</td><td>50</td><td>75</td><td>100</td></tr>
+  </tbody>
+</table></p>
+<a href="#nav">Back to Nav!</a>
+
+<h3 id="Adv1">Adv 1. Kobold Invasion.</h3>
+<p><b>XP thresholds</b> 2 lvl 2, 2 lvl 1. Easy 150, med 300, hard 450, deadly 600. Shooting for hard 450 or so. 5-8 kobolds. A harpy, 3-4 kobolds.</p>
+<p><b>Start</b> at town on overland map. Show where the town is, where the farmland is, show where the main road is, where the temple is, where the river is. Show where the terror region is.</p>
+<p><b>Don't show</b> where the trails are, players can find them as they go!</p>
+<p><b>Harpies</b> have lured kobolds into attacking farming in terror area. Harpies are cowards and will run away.</p>
+<p><b>Harpy stats</b> AC 11, 200xp, str (12) +1, dex (13) +1, con (12) +1, int (7) -2, wis (10) +0, chr(13) +1, HP 38, SPD 20/40 feet/fly.</p>
+<p><b>Harpy actions</b> Multi attack, 1 claws +3 to hit, 5ft, dmg (2d4+1). 1 club +3 to hit, 5ft, dmg (1d4+1). Luring song, humanoid 300ft, DC 11 wis, charmed. Must try to get within 5ft of harpy, any damage or end of turn can try to save again. Success save immune for 24 hrs.</p>
+<p><b>Kobolds</b> have been lured into area by harpies. Attack in numbers. Tunnelers and builder.</p>
+<p><b>Kobold stats</b> AC 12, 25 xp, HP 5, SPD 30, str (7) -2, dex 15 +2, con 9 -1, int 8 -1, wis 7 -2, chr 8 -1. Darkvision 60ft. Sunlight sensitivity, disadvantaged on attack and wis (perception) rolls in sunlight. Pack tactics, advantage on attack rolls if ally not incapacitated within 5ft.</p>
+<p><b>Kobold actions</b> Dagger +4 to hit, 5ft, dmg(1d4+2) or Sling +4 to hit, 30/120ft, dmg(1d4+2). Each Kobold has 3 rocks on them.</p>
+
+<p><b>Rewards</b> each kobold is worth 10 silver, which the local magistrate will pay them when they get back to town. The Harpy is worth 100 silver from the magistrate, though the harpy should run away.</p>
+
+<p><b>Encounter 1: GM info</b> on the first night in the terror zone characters are attacked by 2 waves 4 kobolds. As soon as first group engages, second group 4 appears on edge of firelight. Kobolds should appear out of the darkness along the edge of the firelight. 1 person rolls DC 16 wis (perception) or everyone in group is surprised. Unless no one is on guard, then they are all surprised. The terrain can either have some thicket on the edge of a road, or a corn field on the edge of a road. Kobolds are completely obscured by the thicket/corn.</p>
+
+<p><b>Encounter 1: Read.</b> After a long day of walking you all rest. The night turns out to be not so relaxing as you are awoken by the sound of a group of creatures yipping and yowling. Short reptilian shapes appear on the edge of the firelight. Kobolds attack!</p>
+
+<p><b>Encounter 2:</b> once characters end a night in a farmland square, farmers are attacked by Kobolds. 3 farms are attacked in area. Short breaks between attacks. Short walking distance between farm houses. NPC wakes them up they are taken to first farm house in where they can save the farmers. Each house has 7 kobolds attacking</p>
+
+<p><b>Farmer's saved</b> each farmer saved is worth 25xp, family of 5 at first house. Family of 2, old man wife, at second house. Family of 3 at third, man wife unborn child.</p><p><b>Rewards</b> DC 12 int or wis check to find 1d4 silver at each house. If they save farmers, farmers just give them the silver.</p>
+<p><b>wis (perception) or int(investigation) check</b> After the first attack have one character make a DC 12 check to see if they hear, or go investigate the next farm house being attacked.</p>
+
+<p><b>Farm houses general description</b> dirt path leads up to stone and thatch hovel. Each house is about 20ft wide and 40ft long, slightly dug into the ground. Door is DC 5 to hit, with 10 hp. Farmers are AC 10, 3 hp parents, 2 hp children. No death checks for farmer. First house kobolds at door. Second house door at 5 hp. Third house door already broke.</p>
+
+<p><b>Read.</b> This night you are awoken by a small girl entering your camp, gathering you all up. Frantically in the night you are led to a group of farm buildings where just as the main house comes into the torchlight you hear a long high pitched female scream. The young girl who is guiding you screams in reaction. You can make out a group of small croc ravagers near the door. The kobolds are attacking the farmers.</p>
+
+<p><b>Ravaged farm house</b> either they won't save a house of farmers or the next farmland they encounter is ravaged. At that house its again DC 12 wis or int to find 1d4 silver.</p>
+<p><b>Ravaged farm house: read</b> like a scene from a horror movie you encounter a farm house. Gnawed and bloody corpses can be found already crawling with flies. A man with throat torn out and muscles chewed up. A lady on her back, her stomach just a gaping crimson hole where her unborn child used to be.</p>
+
+
+<p><b>Encounter 3,</b> characters find a house where the kobolds are setting up shop. Once above items happen and characters search new farmland square. Searching they find farmer who hasn't heard from his neighbors. The farmhouse's description is like the ones above.</p>
+
+<p><b>DC 12 chr(persuasion)</b> check to have farmer lead them to the farmhouse 1 square/day away. Else they search for it and find it on the edge of night.</p>
+<p><b>Either</b> they go in at day or night, day 7, kobolds surprised. Night 6 kobolds in, 4 come back after characters attack.</p>
+
+<p><b>At the back of the house</b> is a cave which I have drawn a map for. Characters can take a short break if they want.</p>
+
+<p><b>Tunnel A</b> is large enough for them to stand in. Once they reach the back.</p>
+
+<p><b>Read.</b> at the back of the house you find a tunnel it is dark and completely made of raw exposed earth. After walking down the damp dark tunnel, you find there in a large circular room is a pit. It has a earthen walkway descending from the top to the bottom counter clock wise and reeks of the metallic scent of blood. Bones and animal fragments litter the floor at the bottom of the pit, and as your light starts to invade the pit you hear the yowling of kobolds.</p>
+<p><b>4-6 kobolds attack</b> from the bottom room b.</p>
+<p><b>Short rest</b> if the characters want before moving on.</p>
+
+<p><b>Read</b> after a short break, you find another small earthen tunnel in which a deeply wet musty stink hits you like a slap in the face. You must enter into the dank tunnel on your hands in knees because of its small size.</p>
+<p><b>Tunnel C</b> the characters have to crawl down because its too small. At the end whoever is in front must make DC 14 wis (perception) save or they fall into a concealed pit, taking 1d8 damage which they fall head first into.</p>
+
+<p><b>Read</b> you crawl out into a slightly bigger room, where you find the wet musty stink to be groups of kobold eggs in a shallow pool all in the center of the room. The eggs shake and shimmy and gleam with movement as it is obvious they are about to hatch.</p>
+<p><b>Room D</b> if the players enter the room without falling into the trap they catch the kobolds by surprise. 1-2 kobolds are on each of the landings on the north south sides of the room, 1 kobold on each landing will enter the eggs and quickly help the hatchlings out of the eggs. 5 groups of 3 eggs are X'ed on the map. Any kobolds hatched just attack the players. They don't hatch more eggs, and hatched kobolds only have half hp, 2. It takes the birthing kobolds a whole action to help a group of 3 out of the eggs. The eggs themselves have 1hp and an AC of 5.</p>
+
+<p><b>Short rest</b> give them a chance to rest.</p>
+
+<p><b>Room E</b> is another tunnel leading which they have to crawl down, at the middle is a hidden treasure stash. Make a DC 12 wis (perception) check to see if they notice the false wall at the triangle on the map. At the other end is another pit filled with kobold poop. Give the characters one more chance to notice the stash on the way out.</p>
+<p><b>Hidden stash contents</b> 340 silver, 480 copper.</p>
+
+<p><b>Short rest</b> give the characters a chance for a short rest though that is the end of the tunnel. Then they get attacked by the harpy and 4 kobolds outside the hovel as they exit. Just the dirt path outside in the fire light, 30ft distance to the harpy.</p>
+
+<p><b>Read</b> once you collect yourself at end of the cave and have had a short rest, you hear some oddly beguiling music coming from outside the hovel. It sounds like the vocals of a chanting young lady. You step outside and see a harpy there drawing along a group of kobolds like puppies on a leash. Her whole body heaves in the rhythm of her chant as she floats flapping 10ft above the kobolds. At once she glances up and looks at the party, her music stops and the kobolds snap alert as if out of a trance. And then a grating sharp scream assaults your ears as she commands the kobolds to attack.</p>
+<p><b>Thats all for adventure 1.</b></p>
+<a href="#nav">Back to Nav!</a>
+
+<h3></h3>
+<p><b></b></p>
+<p><b></b></p>
+<a href="#nav">Back to Nav!</a>
+</div>
+</body>
+
+<!--This is the end--> 
+</html>

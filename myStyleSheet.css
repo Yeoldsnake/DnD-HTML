@@ -1,0 +1,13 @@
+/* This is my style sheet */
+#nav    
+{color:orange; width:20%;float:left;}
+table   
+{ color:red;width:70%; }
+body
+{ background-color: lightyellow; }
+b
+{ color:darkgreen; font-size:110%;  }
+h3
+{ color:red; text-align:center; }
+#content
+{ width:80%; text-align:left; float:right; }
