@@ -1,0 +1,4 @@
+
+8/20/17
+I want to put links in the index html to different parts of the what is now the index.html.
+  Though right now I'm just going to add to the adventure to expand it out some.
